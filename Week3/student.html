@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/students.js"></script>
+    </head>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+<body>
+
+
+    <div style="width:100% + 16px; height: 50px; background-color: tomato; margin-left: -8px; margin-right: -8px;">
+      <ul id="menu">
+          <div id="big-button">
+              <li id="menu-items"><a href='./index.html'>Index</a></li>
+          </div>
+
+          <div id="big-button">
+            <li id="menu-items"><a href='./instructor.html'>Instructor</a></li>
+        </div>
+        <div id="big-button">
+          <li id="menu-items"><a href='./login.html'>Logoff</a></li>
+      </div>
+      </ul>
+  </div>
+
+
+  <h2>Student Page</h2>
+
+  <table id="student-table">
+    <!-- <tr>
+      <th>Student ID</th>
+      <th>Email Address</th>
+    </tr>
+    <tr>
+      <td>8729374</td>
+      <td>studentone@oit.edu</td>
+    </tr>
+    <tr>
+      <td>2674928</td>
+      <td>studenttwo@oit.edu</td>
+    </tr> -->
+   
+  </table>
+
+  <script>initStudents()</script>
+</body>
+</html>
