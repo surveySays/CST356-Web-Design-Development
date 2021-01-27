@@ -41,6 +41,14 @@ a:hover {
   text-align: center;
 }
 
+#username {
+  border: 1px solid black;
+}
+
+#password {
+  border: 1px solid black;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
