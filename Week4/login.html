@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   
+
+       <!--removeIf(production)-->
+       <link rel="stylesheet" href="./styles/styles.css">
+       <script src="/scripts/login.js"></script>
+       <!--endRemoveIf(production)-->
+
+           <!-- inject:css -->
+        <!-- endinject -->
+        </head>
+
+
+<body>
+
+  
+
+    <div style="width:100% + 16px; height: 50px; background-color: tomato; margin-left: -8px; margin-right: -8px;">
+        <ul id="menu">
+            <div id="big-button">
+                <li id="menu-items"><a href='./index.html'>Index</a></li>
+            </div>
+            
+            <div id="big-button">
+                <li id="menu-items"><a href='./instructor.html'>Instructor</a></li>
+            </div>
+
+            <div id="big-button">
+                <li id="menu-items"><a href='./student.html'>Student</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <h2 style="text-align: center;">Login Page</h2>
+
+    <div id="form-log">
+        <form>
+            <label id="username-title" for="username">Username</label><br>
+            <input type="text" id="username" name="username" value=""><br>
+            <label id="password-title" for="password">Password</label><br>
+            <input type="password" id="password" name="password" value=""><br><br>
+            <input type="button" value="Login" onclick="validate()">
+        </form> 
+    </div>
+         <!-- inject:js -->
+        <!-- endinject -->
+
+</body>
+</html>
